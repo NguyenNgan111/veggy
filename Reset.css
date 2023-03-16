@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 912px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    grid-row: 1;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 4px;
+}
+
+.col-3 {
+    width: calc(3*100%/12);
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Reset.css">
+    <link rel="stylesheet" href="./Index.html">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="./Index.html"><img src="./asset/Veggy.png" alt=""></a>
+                </div>
+                <div class="search">
+                    <form action="">
+                        <input type="text" placeholder="Search for Vegetables and Fruits">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="cart">
+                    <div class="quantity">
+                        <span>No. of items : <span class="quantity-product">0</span></span>
+                        <span>Sub total: <span class="coin">0</span></span>
+                    </div>
+                    <div class="cart-icon">
+                        <img src="./asset/bag.png" alt="">
+                        <div class="cart__product--list">
+                            <div class="empty-cart">
+                                <img src="./asset/empty-cart.png" alt="">
+                                <h2>Your cart is empty</h2>
+                            </div>
+                            <ul class="have-cart">
+                                <!-- <li class="have-cart__item">
+                                    <div class="have-cart__item--img"><img src="./asset/broccoli.jpg" alt=""></div>
+                                    <div class="have-cart__item--description">
+                                        <h4>brocoli -1kg</h4>
+                                        <span class="have-cart__item--priceOne"><i class="fa-solid fa-indian-rupee-sign"></i>120</span>
+                                    </div>
+                                    <div class="have-cart__item--quantity-price">
+                                        <span class="have-cart__item--quantity">1 <span class="have-cart__item--unit">.No</span> </span>
+                                        <span class="have-cart__item--price"><i class="fa-solid fa-indian-rupee-sign"></i>120</span>
+                                    </div>
+                                    <button class="have-cart__item--close">x</button>
+                                </li> -->
+                            </ul>
+                            <button class="buy-product">PROCEED TO CHECKOUT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <div class="container">
+            <ul class="product__list row">
+                <!-- <li class="product__item col-3">
+                    <div class="contain">
+                        <div class="product-img">
+                            <img src="./asset/broccoli.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>Brocolli - 1 Kg</h2>
+                            <span class="price"><i class="fa-solid fa-indian-rupee-sign"></i>120</span>
+                            <div class="stepper"><a href="#" class="subtract"><i class="fa-solid fa-minus"></i></a><input type="number" class="stepper--quantity" value="1">
+                                <a href="#" class="plus"><i class="fa-solid fa-plus"></i></a>
+                            </div>
+                            <button type="button" class="add-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+            <div class="overlay">
+                <!-- <div class="overlay-content">
+                    <button class="exist">x</button>
+                    <img src="./asset/broccoli.jpg" alt="">
+                    <div class="overlay-discription">
+                        <h3 class="overlay-name">Brocolli - 1 Kg</h3>
+                        <span class="overlay-price"><i class="fa-solid fa-indian-rupee-sign"></i>120</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>
+                    <a href="">
+                        View Source on Github
+                    </a> /
+                    <a href="">
+                        Need any help?
+                     </a> /
+                    <a href="">
+                        Say Hi on Twitter
+                     </a> /
+                    <a href="">
+                        Read My Blog
+                      </a>
+                </p>
+                <p class="copyright">© 2017 <span>Veggy</span> - Organic Green Store</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./App.js"></script>
+
+</html>
